@@ -35,3 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+function addToCart(event){
+  alert("Added to cart successfully");
+  location.reload();
+}
