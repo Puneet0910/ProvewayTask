@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Heading</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <h2 class="section-title">Bundle and saves</h2>
+
+    <div class="bundle">
+      <label for="bundle-one" class="bundle-label">
+        <span class="left">
+          <input type="radio" name="selected-bundle" id="bundle-one">
+          <span class="pair-count">1 Pair</span>
+        </span>
+        <span class="discount">50% OFF</span>
+      </label>
+      
+      <p class="price">DKK <span class="amount">195.00</span></p>
+      <p class="size-color hidden"><span class="size">Size</span> <span class="color">Color</span></p>
+      <div class="hidden flex">
+      <label for="size-dropdown1">#1
+        <select name="size" id="size-dropdown1">
+          <option value="xs">XS</option>
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="l">L</option>
+          <option value="xl">XL</option>
+        </select>
+      </label>
+      <label for="size-dropdown2">
+        <select name="color" id="size-dropdown2">
+          <option value="black">Black</option>
+          <option value="green">Green</option>
+          <option value="brown">Brown</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+      </div>
+      <div class="hidden flex">
+        <label for="size-dropdown3">#2
+          <select name="size" id="size-dropdown3">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+          </select>
+        </label>
+        <label for="size-dropdown4">
+          <label for="size-dropdown4">
+            <select name="color" id="size-dropdown4">
+              <option value="black">Black</option>
+              <option value="green">Green</option>
+              <option value="brown">Brown</option>
+              <option value="blue">Blue</option>
+            </select>
+          </label>
+        </label>
+      </div>
+    </div>
+    <div class="bundle">
+      <label for="bundle-two" class="bundle-label">
+        <span class="left">
+          <input type="radio" name="selected-bundle" id="bundle-two" checked>
+          <span class="pair-count">2 Pair</span>
+        </span>
+        <span class="popular">Most Popular</span>
+        <span class="discount">40% OFF</span>
+      </label>
+      
+      <p class="price">DKK <span class="amount">345.00</span></p>
+      <p class="size-color hidden"><span class="size">Size</span> <span class="color">Color</span></p>
+      <div class="hidden flex">
+      <label for="size-dropdown5">#1
+        <select name="size" id="size-dropdown5">
+          <option value="xs">XS</option>
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="l">L</option>
+          <option value="xl">XL</option>
+        </select>
+      </label>
+      <label for="size-dropdown6">
+        <select name="color" id="size-dropdown6">
+          <option value="black">Black</option>
+          <option value="green">Green</option>
+          <option value="brown">Brown</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+      </div>
+      <div class="hidden flex">
+        <label for="size-dropdown7">#2
+          <select name="size" id="size-dropdown7">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+          </select>
+        </label>
+        <label for="size-dropdown8">
+            <select name="color" id="size-dropdown8">
+              <option value="black">Black</option>
+              <option value="green">Green</option>
+              <option value="brown">Brown</option>
+              <option value="blue">Blue</option>
+            </select>
+          </label>
+        </label>
+      </div>
+    </div>
+    <div class="bundle">
+      <label for="bundle-three" class="bundle-label">
+        <span class="left">
+          <input type="radio" name="selected-bundle" id="bundle-three">
+          <span class="pair-count">3 Pair</span>
+        </span>
+        <span class="discount">60% OFF</span>
+      </label>
+      
+      <p class="price">DKK <span class="amount">528.00</span></p>
+      <p class="size-color hidden"><span class="size">Size</span> <span class="color">Color</span></p>
+      <div class="hidden flex">
+      <label for="size-dropdown9">#1
+        <select name="size" id="size-dropdown9">
+          <option value="xs">XS</option>
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="l">L</option>
+          <option value="xl">XL</option>
+        </select>
+      </label>
+      <label for="size-dropdown10">
+        <select name="color" id="size-dropdown10">
+          <option value="black">Black</option>
+          <option value="green">Green</option>
+          <option value="brown">Brown</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+      </div>
+      <div class="hidden flex">
+        <label for="size-dropdown11">#2
+          <select name="size" id="size-dropdown11">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+          </select>
+        </label>
+        <label for="size-dropdown12">
+            <select name="color" id="size-dropdown12">
+              <option value="black">Black</option>
+              <option value="green">Green</option>
+              <option value="brown">Brown</option>
+              <option value="blue">Blue</option>
+            </select>
+          </label>
+        </label>
+      </div>
+    </div>
+    <div>
+      <p id="selected-amount"></p>
+    </div>
+  <button type="submit">Add to Cart</button>
+  </form>
+</body>
+<script src="index.js"></script>
+</html>

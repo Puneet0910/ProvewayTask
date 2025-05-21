@@ -1,0 +1,77 @@
+form{
+  width: 400px;
+  margin: 0 auto;
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.section-title::before,
+.section-title::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.section-title:not(:empty)::before {
+  margin-right: 10px;
+}
+
+.section-title:not(:empty)::after {
+  margin-left: 10px;
+}
+.bundle-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+.bundle-label .left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bundle{
+  border-bottom: 1px solid green;
+}
+.discount {
+  font-weight: bold;
+  color: red; /* optional */
+}
+.price{
+  padding-left: 10px;
+}
+.size-color{
+  display:flex;
+  justify-content: space-evenly;
+}
+.hidden label{
+  display: inline-block;
+  text-align: center;
+}
+.flex{
+  display:flex;
+  justify-content: space-evenly;
+  padding:10px;
+}
+.flex select{
+  width: 100px;
+  height: 20px;
+}
+.popular{
+  color:green;
+  font-weight: 800;
+}
+.hidden{
+  display:none;
+}
+button{
+  display: block;
+  width:280px;
+  margin: auto;
+  padding: 10px;
+}
